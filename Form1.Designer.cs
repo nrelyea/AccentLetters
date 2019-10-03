@@ -60,6 +60,7 @@
             this.e_button.TabIndex = 1;
             this.e_button.Text = "é";
             this.e_button.UseVisualStyleBackColor = true;
+            this.e_button.Click += new System.EventHandler(this.e_button_Click);
             // 
             // i_button
             // 
@@ -70,6 +71,7 @@
             this.i_button.TabIndex = 2;
             this.i_button.Text = "í";
             this.i_button.UseVisualStyleBackColor = true;
+            this.i_button.Click += new System.EventHandler(this.i_button_Click);
             // 
             // o_button
             // 
@@ -80,6 +82,7 @@
             this.o_button.TabIndex = 3;
             this.o_button.Text = "ó";
             this.o_button.UseVisualStyleBackColor = true;
+            this.o_button.Click += new System.EventHandler(this.o_button_Click);
             // 
             // u_button
             // 
@@ -90,6 +93,7 @@
             this.u_button.TabIndex = 4;
             this.u_button.Text = "ú";
             this.u_button.UseVisualStyleBackColor = true;
+            this.u_button.Click += new System.EventHandler(this.u_button_Click);
             // 
             // n_button
             // 
@@ -100,6 +104,7 @@
             this.n_button.TabIndex = 5;
             this.n_button.Text = "ñ";
             this.n_button.UseVisualStyleBackColor = true;
+            this.n_button.Click += new System.EventHandler(this.n_button_Click);
             // 
             // uu_button
             // 
@@ -110,6 +115,7 @@
             this.uu_button.TabIndex = 6;
             this.uu_button.Text = "ü";
             this.uu_button.UseVisualStyleBackColor = true;
+            this.uu_button.Click += new System.EventHandler(this.uu_button_Click);
             // 
             // exc_button
             // 
@@ -120,6 +126,7 @@
             this.exc_button.TabIndex = 7;
             this.exc_button.Text = "¡";
             this.exc_button.UseVisualStyleBackColor = true;
+            this.exc_button.Click += new System.EventHandler(this.exc_button_Click);
             // 
             // que_button
             // 
@@ -130,6 +137,7 @@
             this.que_button.TabIndex = 8;
             this.que_button.Text = "¿";
             this.que_button.UseVisualStyleBackColor = true;
+            this.que_button.Click += new System.EventHandler(this.que_button_Click);
             // 
             // change_button
             // 

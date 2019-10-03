@@ -22,7 +22,97 @@ namespace Accents
 
         private void a_button_Click(object sender, EventArgs e)
         {
+            if (lowerCase)
+            {
+                Clipboard.SetText("á");
+            }
+            else
+            {
+                Clipboard.SetText("Á");
 
+            }
+        }
+
+        private void e_button_Click(object sender, EventArgs e)
+        {
+            if (lowerCase)
+            {
+                Clipboard.SetText("é");
+            }
+            else
+            {
+                Clipboard.SetText("É");
+            }
+        }
+
+        private void i_button_Click(object sender, EventArgs e)
+        {
+            if (lowerCase)
+            {
+                Clipboard.SetText("í");
+            }
+            else
+            {
+                Clipboard.SetText("Í");
+            }
+        }
+
+        private void o_button_Click(object sender, EventArgs e)
+        {
+            if (lowerCase)
+            {
+                Clipboard.SetText("ó");
+            }
+            else
+            {
+                Clipboard.SetText("Ó");
+            }
+        }
+
+        private void u_button_Click(object sender, EventArgs e)
+        {
+            if (lowerCase)
+            {
+                Clipboard.SetText("ú");
+            }
+            else
+            {
+                Clipboard.SetText("Ú");
+            }
+        }
+
+        private void n_button_Click(object sender, EventArgs e)
+        {
+            if (lowerCase)
+            {
+                Clipboard.SetText("ñ");
+            }
+            else
+            {
+                Clipboard.SetText("Ñ");
+            }
+        }
+
+        private void uu_button_Click(object sender, EventArgs e)
+        {
+            if (lowerCase)
+            {
+                Clipboard.SetText("ü");
+            }
+            else
+            {
+                Clipboard.SetText("Ü");
+            }
+        }
+
+        private void exc_button_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText("¡");
+        }
+
+        private void que_button_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText("¿");
         }
 
         private void change_button_Click(object sender, EventArgs e)
@@ -36,6 +126,7 @@ namespace Accents
                 u_button.Text = "Ú";
                 n_button.Text = "Ñ";
                 uu_button.Text = "Ü";
+
                 lowerCase = false;
             }
             else
@@ -47,10 +138,11 @@ namespace Accents
                 u_button.Text = "ú";
                 n_button.Text = "ñ";
                 uu_button.Text = "ü";
-                //exc_button.Text = "¡";
-                //que_button.Text = "¿";
+
                 lowerCase = true;
             }
         }
+
+
     }
 }
