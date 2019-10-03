@@ -43,6 +43,7 @@
             // a_button
             // 
             this.a_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a_button.ForeColor = System.Drawing.Color.Black;
             this.a_button.Location = new System.Drawing.Point(12, 12);
             this.a_button.Name = "a_button";
             this.a_button.Size = new System.Drawing.Size(150, 150);
@@ -54,6 +55,7 @@
             // e_button
             // 
             this.e_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.e_button.ForeColor = System.Drawing.Color.Black;
             this.e_button.Location = new System.Drawing.Point(168, 12);
             this.e_button.Name = "e_button";
             this.e_button.Size = new System.Drawing.Size(150, 150);
@@ -65,6 +67,7 @@
             // i_button
             // 
             this.i_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.i_button.ForeColor = System.Drawing.Color.Black;
             this.i_button.Location = new System.Drawing.Point(324, 12);
             this.i_button.Name = "i_button";
             this.i_button.Size = new System.Drawing.Size(150, 150);
@@ -76,6 +79,7 @@
             // o_button
             // 
             this.o_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.o_button.ForeColor = System.Drawing.Color.Black;
             this.o_button.Location = new System.Drawing.Point(480, 12);
             this.o_button.Name = "o_button";
             this.o_button.Size = new System.Drawing.Size(150, 150);
@@ -87,6 +91,7 @@
             // u_button
             // 
             this.u_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.u_button.ForeColor = System.Drawing.Color.Black;
             this.u_button.Location = new System.Drawing.Point(636, 12);
             this.u_button.Name = "u_button";
             this.u_button.Size = new System.Drawing.Size(150, 150);
@@ -98,6 +103,7 @@
             // n_button
             // 
             this.n_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n_button.ForeColor = System.Drawing.Color.Black;
             this.n_button.Location = new System.Drawing.Point(12, 168);
             this.n_button.Name = "n_button";
             this.n_button.Size = new System.Drawing.Size(150, 150);
@@ -109,6 +115,7 @@
             // uu_button
             // 
             this.uu_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uu_button.ForeColor = System.Drawing.Color.Black;
             this.uu_button.Location = new System.Drawing.Point(168, 168);
             this.uu_button.Name = "uu_button";
             this.uu_button.Size = new System.Drawing.Size(150, 150);
@@ -120,28 +127,33 @@
             // exc_button
             // 
             this.exc_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exc_button.ForeColor = System.Drawing.Color.Black;
             this.exc_button.Location = new System.Drawing.Point(324, 168);
             this.exc_button.Name = "exc_button";
             this.exc_button.Size = new System.Drawing.Size(150, 150);
             this.exc_button.TabIndex = 7;
             this.exc_button.Text = "¡";
+            this.exc_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.exc_button.UseVisualStyleBackColor = true;
             this.exc_button.Click += new System.EventHandler(this.exc_button_Click);
             // 
             // que_button
             // 
             this.que_button.Font = new System.Drawing.Font("Arial Narrow", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.que_button.ForeColor = System.Drawing.Color.Black;
             this.que_button.Location = new System.Drawing.Point(480, 168);
             this.que_button.Name = "que_button";
             this.que_button.Size = new System.Drawing.Size(150, 150);
             this.que_button.TabIndex = 8;
             this.que_button.Text = "¿";
+            this.que_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.que_button.UseVisualStyleBackColor = true;
             this.que_button.Click += new System.EventHandler(this.que_button_Click);
             // 
             // change_button
             // 
             this.change_button.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.change_button.ForeColor = System.Drawing.Color.Black;
             this.change_button.Location = new System.Drawing.Point(636, 168);
             this.change_button.Name = "change_button";
             this.change_button.Size = new System.Drawing.Size(150, 150);
@@ -154,6 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Purple;
             this.ClientSize = new System.Drawing.Size(800, 329);
             this.Controls.Add(this.change_button);
             this.Controls.Add(this.que_button);
