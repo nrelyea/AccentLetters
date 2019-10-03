@@ -49,6 +49,7 @@
             this.a_button.TabIndex = 0;
             this.a_button.Text = "á";
             this.a_button.UseVisualStyleBackColor = true;
+            this.a_button.Click += new System.EventHandler(this.a_button_Click);
             // 
             // e_button
             // 
@@ -132,19 +133,20 @@
             // 
             // change_button
             // 
-            this.change_button.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.change_button.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.change_button.Location = new System.Drawing.Point(636, 168);
             this.change_button.Name = "change_button";
             this.change_button.Size = new System.Drawing.Size(150, 150);
             this.change_button.TabIndex = 9;
             this.change_button.Text = "Change\r\nCase\r\n";
             this.change_button.UseVisualStyleBackColor = true;
+            this.change_button.Click += new System.EventHandler(this.change_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 329);
             this.Controls.Add(this.change_button);
             this.Controls.Add(this.que_button);
             this.Controls.Add(this.exc_button);
